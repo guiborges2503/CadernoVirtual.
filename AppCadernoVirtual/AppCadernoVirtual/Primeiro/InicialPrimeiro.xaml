@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.InicialPrimeiro"
+             Title="1º E.M. - Matérias" >
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            
+            <Label Text="Lista de Matérias do 1º E.M."
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="Português" x:Name="BtnPortugues" Clicked="BtnPortugues_Clicked" BackgroundColor="Orange"  />
+                <Button Text="Inglês" x:Name="BtnIngles" Clicked="BtnIngles_Clicked" BackgroundColor="Orange"/>
+                <Button Text="Geografia" x:Name="BtnGeografia" Clicked="BtnGeografia_Clicked" BackgroundColor="Orange" />
+                <Button Text="História" x:Name="BtnHistoria" Clicked="BtnHistoria_Clicked" BackgroundColor="Orange" />
+                <Button Text="Física" x:Name="BtnFisica" Clicked="BtnFisica_Clicked" BackgroundColor="Orange" />
+                <Button Text="Química" x:Name="BtnQuimica" Clicked="BtnQuimica_Clicked" BackgroundColor="Orange" />
+                <Button Text="Biologia" x:Name="BtnBiologia" Clicked="BtnBiologia_Clicked" BackgroundColor="Orange" />
+                <Button Text="Filosofia" x:Name="BtnFilosofia" Clicked="BtnFilosofia_Clicked" BackgroundColor="Orange" />
+                <Button Text="Educação Física" x:Name="BtnEducacaoFisica" Clicked="BtnEducacaoFisica_Clicked" BackgroundColor="Orange" />
+                <Button Text="Artes" x:Name="BtnArtes" Clicked="BtnArtes_Clicked" BackgroundColor="Orange" />
+
+                <Button Text="Programação WEB I" x:Name="BtnProgramacaoWeb" Clicked="BtnProgramacaoWeb_Clicked" BackgroundColor="Orange" />
+                <Button Text="Análise e Projeto de Sistemas" x:Name="BtnAnalise" Clicked="BtnAnalise_Clicked"  BackgroundColor="Orange"/>
+                <Button Text="Design Digital" x:Name="BtnDesignDigital" Clicked="BtnDesignDigital_Clicked"  BackgroundColor="Orange"/>
+                <Button Text="Fundamentos da Informática" x:Name="BtnFundamentosInformatica" Clicked="BtnFundamentosInformatica_Clicked" BackgroundColor="Orange" />
+                <Button Text="Técnicas de Programação de Algoritmos" x:Name="BtnAlgoritmos" Clicked="BtnAlgoritmos_Clicked" BackgroundColor="Orange" />
+                <Button Text="Banco de Dados I" x:Name="BtnBancoDeDados" Clicked="BtnBancoDeDados_Clicked" BackgroundColor="Orange" />
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

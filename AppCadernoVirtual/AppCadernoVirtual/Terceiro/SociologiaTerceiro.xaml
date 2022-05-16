@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.SociologiaTerceiro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+
+			<Label Text="Influência da tecnologia e dos meios de comunicação na construção da Cultura " />
+			<Label Text="Transformações e evolução da concepção do trabalho sob a ótica da análise sociológica " />
+
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

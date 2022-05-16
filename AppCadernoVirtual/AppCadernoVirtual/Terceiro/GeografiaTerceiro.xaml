@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.GeografiaTerceiro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+
+			<Label Text="As relações entre sociedade e natureza: as interações na organização dos espaços da cultura e dos espaços geográficos; " />
+			<Label Text="O panorama mundial contemporâneo e o papel exercido pelas potências hegemônicas; a construção de uma interpretação das paisagens num cenário local e/ou regional. " />
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Primeiro.FisicaPrimeiro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+
+
+
+           
+                <Label Text="Som, imagem e comunicação" FontAttributes="Bold" />
+      
+
+
+
+
+            <Label Text="Princípios e leis" />
+            <Label Text="Uso e tecnologias no cotidiano" />
+
+            <Label Text="Energia" FontAttributes="Bold" />
+
+            <Label Text="Tipologias" />
+            <Label Text="Geração e transformações" />
+            <Label Text="A energia no desenvolvimento social e tecnológico" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

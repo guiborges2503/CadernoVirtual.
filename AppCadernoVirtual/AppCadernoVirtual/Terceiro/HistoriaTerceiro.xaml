@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.HistoriaTerceiro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+
+			<Label Text="As formas de participação política para a conquista e preservação do direito, em seus diferentes aspectos, nos processos históricos mais amplos; " />
+			<Label Text="A interpretação crítica da organização das instituições políticas e econômicas nas sociedades contemporâneas. " />
+
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

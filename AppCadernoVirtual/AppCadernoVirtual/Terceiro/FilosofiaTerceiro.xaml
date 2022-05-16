@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.FilosofiaTerceiro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+
+			<Label Text="As relações de alteridade e de diversidade na compreensão dos fatores sociais, econômicos, políticos e culturais" />
+			<Label Text="A formação da consciência e os juízos de valor nos conflitos da atualidade" />
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

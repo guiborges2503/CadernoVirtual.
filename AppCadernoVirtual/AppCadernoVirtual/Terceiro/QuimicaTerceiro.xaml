@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.QuimicaTerceiro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+
+
+			<Label Text="Grupos funcionais" />
+			<Label Text="Isometria" />
+			<Label Text="Combustíveis Fósseis e seus impáctos" />
+			<Label Text="Fontes Alternativas" />
+			<Label Text="Polímeros e resinas sintéticas" />
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

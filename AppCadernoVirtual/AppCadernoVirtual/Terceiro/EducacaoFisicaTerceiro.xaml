@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.EducacaoFisicaTerceiro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+
+			<Label Text="Corpo em movimento: trabalho e lazer" />
+			<Label Text="Cultura corporal e discurso" />
+			<Label Text="Práticas corporais e convivência: autonomia e engajamento" />
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

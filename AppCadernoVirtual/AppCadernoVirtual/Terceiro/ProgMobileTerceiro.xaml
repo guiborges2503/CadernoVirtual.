@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Terceiro.ProgMobileTerceiro">
+    <ContentPage.Content>
+        <StackLayout Padding="15">
+            <Label Text="Tópicos:"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+			<Label Text="Consumindo APIs e serviços Web" />
+			<Label Text="Localização e mapas" />
+			<Label Text="Sensores" />
+			<Label Text="Widgets" />
+			<Label Text="Notificações" />
+			<Label Text="Permissões" />
+			<Label Text="Integração com outros apps" />
+			<Label Text="Concorrência" />
+			<Label Text="Interação com dispositivos sem fio" />
+
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>

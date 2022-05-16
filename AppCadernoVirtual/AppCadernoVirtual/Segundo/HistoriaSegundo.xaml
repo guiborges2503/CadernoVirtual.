@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppCadernoVirtual.Segundo.HistoriaSegundo"
+             Title="2º E.M. - História" >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="2º E.M. - História"
+                VerticalOptions="Start" 
+                HorizontalOptions="CenterAndExpand"
+                FontSize="Title" />
+
+			<Label Text="Os processos de formação das identidades e os elementos culturais que as constituem" />
+			<Label Text="O itinerário histórico das relações de poder e a organização dos processos identitários no espaço socioeconômico, cultural e político. " />
+
+		</StackLayout>
+    </ContentPage.Content>
+</ContentPage>
